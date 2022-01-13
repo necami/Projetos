@@ -1,0 +1,28 @@
+.rodape{
+	background-color:#0E0E0E;
+	bottom: 0;
+	clear: both;
+	padding: 3vh;
+	position: relative;
+	width: 100%;
+}
+
+.redes__sociais{
+	align-content: flex-end;
+	display: inline-block;
+}
+
+.redes__item{
+	display: inline;
+	font-size: 2em;
+	margin: 0 0 0 15px;
+}
+
+.redes__item a{
+	color: #FEFEFE;
+}
+
+
+.rights{
+	color: #FEFEFE;
+}

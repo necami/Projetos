@@ -1,0 +1,65 @@
+.cabecalho__logo{
+	margin-left: 20px;
+}
+
+.menu{
+	position: absolute;
+	right: 10px;
+	top: 15px;
+}
+
+.menu__lista{
+	align-content: center;
+	display: inline-block;
+}
+
+.menu__item{
+	display: inline;
+	font-size: 1.3em;
+	margin: 0 0 0 15px;
+	padding: 5px;
+}
+
+nav a{
+	color: #0E0E0E;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #696969;
+}
+
+@media screen and (max-width: 810px){
+	.cabecalho{
+		height: 25vh;
+		width: 100%;
+		text-align: center;
+	}
+
+	.menu{
+		top: 70px;
+	}
+}
+
+}
+
+
+@media screen and (max-width: 425px){
+	.cabecalho{
+		height: 25vh;
+		width: 100%;
+		text-align: center;
+	}
+
+	.menu{
+		top: 70px;
+	}
+
+}
+
+@media screen and (max-width: 325px){
+	.cabecalho{
+		height: 30vh;
+	}
+
+}

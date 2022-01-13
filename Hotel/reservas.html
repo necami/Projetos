@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lírio D'água</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1f7763cf00.js" crossorigin="anonymous"></script>
+    <link href="./assets/css/normalize.css" rel="stylesheet" />
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/cabecalho.css" rel="stylesheet" />
+    <link href="./assets/css/footer.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <a href="index.html"><img src="./assets/img/logo.png" alt="Lírio D'água" class="cabecalho__logo"></a>
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a href="index.html">Início</a></li>
+                    <li class="menu__item"><a href="quemsomos.html">Quem somos</a></li>
+                    <li class="menu__item"><a href="servicos.html">Serviços</a></li>
+                    <li class="menu__item"><a href="contato.html">Contato</a></li>
+                    <li class="menu__item"><a class="btn btn-dark btn-lg" href="reservas.html" role="button">Reserve Já</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="reservas">
+            <hr>
+            <h1>Reservas</h1>
+            <h3>Aqui você pode fazer suas reservas e ver os quartos</h3>
+            <hr>
+            <form>
+              <div class="form-row">
+                <div class="col-md-3 mb-3">
+                    <label for="tiposquarto">Quarto</label>
+                    <select class="form-control" id="tiposquarto">
+                      <option>Quarto Casal Standard</option>
+                      <option>Quarto Casal Master</option>
+                      <option>Quarto Deluxe</option>
+                      <option>Duplo Solteiro</option>
+                  </select>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="data">Datas</label>
+                <input type="date" class="form-control" id="dats" name="data" required>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="adultos">Adultos</label>
+              <input type="number" class="form-control" id="adultos" placeholder="Número de adultos" required>
+          </div>
+          <div class="col-md-3 mb-3">
+              <label for="criancas">Crianças</label>
+              <input type="number" class="form-control" id="criancas" placeholder="Número de crianças" required>
+          </div>
+      </div>
+      <button class="btn btn-dark btn-lg" type="submit">Reservar</button>
+  </form>
+  <hr>
+  <div>
+      <figure class="mb-3">
+        <img src="./assets/img/quartos/quarto1.jpg" class="quartoimg rounded">
+        <p class="mt-1">Quarto Casal Standard<br>R$ 400,00 pernoite</p>
+    </figure>
+    <figure class="mb-3">
+        <img src="./assets/img/quartos/quarto2.jpg" class="quartoimg rounded">
+        <p class="mt-1">Quarto Casal Master<br>R$ 600,00 pernoite</p>
+    </figure>
+    <figure class="mb-3">
+        <img src="./assets/img/quartos/quarto3.jpg" class="quartoimg rounded">
+        <p class="mt-1">Quarto Deluxe<br>R$ 800,00 pernoite</p>
+    </figure>
+    <figure class="mb-3">
+        <img src="./assets/img/quartos/quarto4.jpg" class="quartoimg rounded">
+        <p class="mt-1">Duplo Solteiro<br>R$ 400,00 pernoite</p>
+    </figure>
+</div>
+</section>
+
+</main>
+<footer class="rodape mt-3">
+  <div class="container">
+    <div>
+        <ul class="redes__sociais d-flex justify-content-center">
+            <li class="redes__item"><a href="#" class="text-center"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="redes__item"><a href="#" class="text-center"><i class="fab fa-twitter-square"></i></a></li>
+            <li class="redes__item"><a href="#" class="text-center"><i class="fab fa-instagram-square"></i></a><li>
+                <li class="redes__item"><a href="#" class="text-center"><i class="fab fa-whatsapp-square"></i></a></li>
+            </ul>
+        </div>
+        <small class="rights d-flex justify-content-center mt-2">&copy; Copyright 2022, Camila Novais Acioli</small>
+    </div>
+
+
+</footer>
+</body>
+
+</html>

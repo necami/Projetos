@@ -1,0 +1,274 @@
+body{
+	background-color: #FEFEFE;
+}	
+
+
+.container{
+	min-width: 100%;
+	padding: 0;
+	position: relative;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	filter: invert(100%);
+}
+
+.carousel-img{
+	height:70vh;
+}
+
+
+h1{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.25em;
+}
+
+/*Principal*/
+
+.principal{
+	margin: 0 285.5px 0 285.5px;
+	padding: 5px;
+}
+
+/*Serviços index*/
+
+.servicos{
+	margin: 0 280px 0 280px;
+	padding: 5px;
+}
+
+.servicos h2{
+	font-size: 2em;
+}
+
+.servp{
+	float: left;
+	margin: 0 0 0 45px;
+	text-align: center;
+}
+
+.servicos__icon{
+	font-size: 2em;
+}
+
+span p{
+	font-size: 1.2em;
+	text-align: center;
+}
+
+/*Localização*/
+
+.localizacao{
+	background-color: #F0F0F0;
+	clear: both;
+	padding: 10px;
+}
+
+.localizacao h2{
+	font-size: 1.75em;
+}
+
+.localizacao, .localizacao iframe{
+	justify-content: center;
+	text-align: center;
+}
+
+/*Quem somos*/
+.quemsomos{
+	margin: 0 280px 0 280px;
+	text-align: center;
+}
+
+.quemsomosimg{
+	height: 50%;
+	vertical-align: middle;
+	width: 50%;
+}
+
+/*Serviços*/
+
+.servicoss{
+	margin: 0 150px 0 150px;
+	text-align: center;
+}
+
+.servicosimg{
+	height: 200px;
+	width: 250px;
+}
+
+figure{
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 25%;
+}
+
+/*Contato*/
+.contato{
+	margin: 0 150px 0 150px;
+	text-align: center;
+}
+
+/*Reservas*/
+
+.reservas{
+	margin: 0 150px 0 150px;
+	text-align: center;
+}
+
+.quartoimg{
+	height: 200px;
+	width: 250px;
+}
+
+
+/*Media queries*/
+
+/*Principal*/
+@media screen and (max-width: 1024px){
+	.principal{
+		margin: 0 170px 0 170px;
+
+	}
+}
+
+@media screen and (max-width: 768px){
+	.principal{
+		margin: 0 70px 0 70px;
+
+	}
+}
+
+@media screen and (max-width: 425px){
+	.principal{
+		margin: 0 20px 0 20px;
+
+	}
+}
+
+/*Serviços index*/
+@media screen and (max-width: 1024px){
+	.servicos{
+		margin: 0 130px 0 130px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.servicos{
+		margin: 0 0 0 0;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.servp{
+		float: none;
+	}
+}
+
+/*Quem somos*/
+@media screen and (max-width: 1024px){
+	.quemsomos{
+		margin: 0 150px 0 150px;
+	}
+	.quemsomosimg{
+		height: 70%;
+		vertical-align: middle;
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.quemsomos{
+		margin: 0 80px 0 80px;
+	}
+	
+}
+
+@media screen and (max-width: 425px){
+	.quemsomos{
+		margin: 0 20px 0 20px;
+	}
+
+	.quemsomosimg{
+		height: 950%;
+		vertical-align: middle;
+		width: 95%;
+	}
+	
+}
+
+/*Serviços*/
+
+@media screen and (max-width: 1024px){
+	.servicosimg{
+		height: 150px;
+		width: 200px;
+	}
+
+	figure{
+		width: 30%;
+	}
+
+	.servicoss{
+		margin: 0 100px 0 100px;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.servicosimg{
+		height: 120px;
+		width: 170px;
+	}
+
+	figure{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 545px){
+
+	figure{
+		float: none;
+	}
+
+	.servicoss{
+		margin: 0 50px 0 85px;
+	}
+	
+}
+
+/*Contato*/
+
+.contato{
+	margin: 0 100px 110px 100px;
+	text-align: center;
+}
+
+/*Reservas*/
+
+@media screen and (max-width: 768px){
+	.reservas{
+		margin: 0 80px 0 80px;
+		text-align: center;
+	}
+
+	.quartoimg{
+		height: 150px;
+		width: 200px;
+	}
+	
+}
+
+@media screen and (max-width: 425px){
+	iframe{
+		height: 70%;
+		width: 70%;
+	}
+	
+}
